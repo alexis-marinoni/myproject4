@@ -1,0 +1,70 @@
+
+h1{
+	font-family: fruktur;
+	color: gray;
+	font-size: 70px;
+}
+h2{
+	font-family: !important;
+	color: green;
+}
+h3{
+	font-family: !important;
+	color: green;
+}
+h4{
+	font-family: 'press start 2p';
+	color: green;
+	font-size: 40px;
+}
+p{
+	font-family: arial;
+	color: black;
+}
+img {
+	text-align: center;
+	border-radius: 90px;
+}
+a{
+	font-size: 20px;
+	color: black;
+	font-family: helvetica;
+}
+ul{
+	list-style: none;
+	font-family: helvetica;
+	color: black;
+	padding: 0px;
+}
+button{
+	background-color: floralwhite;
+  border: none;
+  border-radius: 30px;
+  color: none;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  transition: transform 2s;
+}
+button:hover{
+	transform: rotate(360deg);
+}
+.container{
+	margin: auto;
+	background: floralwhite;
+	box-shadow: 7px 7px 10px 5px rgba(0, 0, 0, .2);
+	width: 65%;
+	transition: transform 2s;
+}
+.container:hover{
+	transform: scale(1.05);
+}
+body{
+	text-align: center;
+	background-color: rgb(182, 173, 158);
+}
+@media (max-width: 700px){
+	.container{
+		background: red;}
